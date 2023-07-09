@@ -14,6 +14,9 @@ int main(){
             case '+': add = n1+n2;
                       printf("%d",add);
                       break;
+            case '-': sub = n1 - n2;
+                      printf("%d",sub);
+                      break;  
             default : printf("wrong choice.");
         }
 
