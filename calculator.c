@@ -16,9 +16,19 @@ int main(){
                       break;
             case '-': sub = n1 - n2;
                       printf("%d",sub);
-                      break;  
+                      break; 
+             
+            case '*': mul = n1 * n2;
+                      printf("%d",mul);
+                      break; 
+             
+            case '/': sub = n1 / n2;
+                      printf("%d",div);
+                      break; 
+             
             default : printf("wrong choice.");
         }
 
     }
+    return 0;
 }
